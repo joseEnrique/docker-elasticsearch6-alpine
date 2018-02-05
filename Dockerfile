@@ -1,6 +1,5 @@
 FROM alpine:3.7
 
-LABEL maintainer "https://github.com/blacktop"
 
 RUN apk add --no-cache openjdk8-jre su-exec
 
